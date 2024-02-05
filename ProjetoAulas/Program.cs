@@ -1,9 +1,26 @@
-﻿internal class Program
+﻿using Cadastro;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
         //AulaClasses();
-        AulaPropriedadeSomenteLeitura();      
+        //AulaPropriedadeSomenteLeitura(); 
+        AulaHeranca();     
+
+    }
+
+    private static void AulaHeranca()
+    {
+        var pessoaFisica = new Cadastro.PessoaFisica();
+        pessoaFisica.Id = 1;
+        pessoaFisica.Endereco = "Mamede Freire 60";
+        pessoaFisica.Cidade = "São Paulo";
+        pessoaFisica.Cep = "12345612";
+        pessoaFisica.CPF = "12345678912";
+
+        pessoaFisica.ImprimirDados();
+        pessoaFisica.ImprimirCPF();
     }
 
     private static void AulaClasses()

@@ -11,6 +11,7 @@ namespace Cadastro
         }
     }
     public class Produto
+
     {
         private int Id;
         public string Descricao { get; set;}
@@ -37,5 +38,37 @@ namespace Cadastro
         {
             return Id;
         }
-    }    
+    }   
+
+
+    public class Pessoa
+    {
+        public int Id {get; set;}
+
+        public string Endereco {get; set;}
+        public string Cidade {get; set;}
+
+        public string Cep {get; set;}
+
+        public void ImprimirDados()
+        {
+            Console.WriteLine("Codigo: " + Id);
+            Console.WriteLine("Endereco: " + Endereco);
+            Console.WriteLine("Cidade: " + Cidade);
+            Console.WriteLine("Cep: " + Cep);
+        }
+
+
+    }
+
+    public class PessoaFisica : Pessoa
+    {
+        public string CPF {get; set;}
+
+        public void ImprimirCPF()
+        {
+            Console.WriteLine("CPF: " + CPF);
+        }
+
+    }
 }
