@@ -154,6 +154,25 @@ namespace Cadastro
         {
             Console.WriteLine("Notificando cliente");
         }
+
+         public void NotificarOutros()
+        {
+            Console.WriteLine("Notificando outros");
+        }
+    }
+    public class NoticacaoFuncionario : INotificacao
+    {
+        public string Descricao { get; set; }
+
+        public void Notificar()
+        {
+            Console.WriteLine("Notificando funcionario");
+        }
+
+         public void NotificarOutros()
+        {
+            Console.WriteLine("Notificando outros");
+        }
     }
 
 }

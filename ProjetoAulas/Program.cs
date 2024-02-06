@@ -9,8 +9,20 @@ internal class Program
         //AulaHeranca(); 
         //AulaClasseSelada();  
         //AulaClasseAbstrata();
-        AulaRecord(); 
+        //AulaRecord(); 
+        AulaInterface();
 
+    }
+
+    private static void AulaInterface()
+    {
+        var noticacaoCliente = new Cadastro.NoticacaoCliente();
+        noticacaoCliente.Notificar();
+        noticacaoCliente.NotificarOutros();
+
+        Cadastro.INotificacao notificacao = new Cadastro.NoticacaoFuncionario();
+        notificacao.Notificar();
+        
     }
 
     private static void AulaRecord()
@@ -20,7 +32,7 @@ internal class Program
 
         var curso1 = new Cadastro.Curso(1,"Curso");
         var curso2 = curso1 with{Descricao = "Teste Novo"};
-        
+
         //var curso1 = new Cadastro.CursoTeste{ Id = 1, Descricao = "Curso"};
         //var curso2 = curso1;
         //curso2.Descricao = "TESTE TESTE";
