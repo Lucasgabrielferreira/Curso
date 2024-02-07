@@ -11,9 +11,19 @@ internal class Program
         //AulaClasseAbstrata();
         //AulaRecord(); 
         //AulaInterface();
-        Conversores();
+        //Conversores();
+        TrabalhandoComStrings();
 
     }
+
+    private static void TrabalhandoComStrings()
+    {
+       var trabalhandoComStrings = new Modulo10.TrabalhandoComStrings();
+       //trabalhandoComStrings.ConverterParaLetrasMinusculas();
+       //trabalhandoComStrings.ConverterParaLetrasMaiusculas();
+       trabalhandoComStrings.AulaSubstring();
+
+    }  
 
     private static void Conversores()
     {
