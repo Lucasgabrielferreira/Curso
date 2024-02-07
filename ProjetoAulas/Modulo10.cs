@@ -52,4 +52,14 @@ public class TrabalhandoComStrings
         }
         //Console.WriteLine("Contem nome: " + nomeArquivo.Contains("backup"));
     }
+
+      public void AulaTrim()
+    {
+        string teste = "**LUCAS GABRIEL**";
+
+        Console.WriteLine("TOTAL: " + teste.Trim('*'));
+        Console.WriteLine("INICIO: " + teste.TrimStart('*'));
+        Console.WriteLine("FINAL: " + teste.TrimEnd('*'));
+        
+    }
 }
