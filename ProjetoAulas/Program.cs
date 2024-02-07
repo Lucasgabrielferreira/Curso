@@ -10,9 +10,18 @@ internal class Program
         //AulaClasseSelada();  
         //AulaClasseAbstrata();
         //AulaRecord(); 
-        AulaInterface();
+        //AulaInterface();
+        Conversores();
 
     }
+
+    private static void Conversores()
+    {
+        var conversores = new Conversores.Conversor();
+        // conversores.ConvertAndParse();
+        conversores.AulaTryParse();
+    }   
+
 
     private static void AulaInterface()
     {
