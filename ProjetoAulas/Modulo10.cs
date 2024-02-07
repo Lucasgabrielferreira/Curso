@@ -62,4 +62,13 @@ public class TrabalhandoComStrings
         Console.WriteLine("FINAL: " + teste.TrimEnd('*'));
         
     }
+
+      public void AulaStartsWithEndsWith()
+    {
+        string teste = "Curso Csharp";
+
+        Console.WriteLine("INICIO: " + teste.StartsWith("Curso"));
+        Console.WriteLine("FINAL: " + teste.EndsWith("Csharp"));
+        
+    }
 }
