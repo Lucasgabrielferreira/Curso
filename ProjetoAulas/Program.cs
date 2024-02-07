@@ -21,7 +21,8 @@ internal class Program
        var trabalhandoComStrings = new Modulo10.TrabalhandoComStrings();
        //trabalhandoComStrings.ConverterParaLetrasMinusculas();
        //trabalhandoComStrings.ConverterParaLetrasMaiusculas();
-       trabalhandoComStrings.AulaSubstring();
+       //trabalhandoComStrings.AulaSubstring();
+       trabalhandoComStrings.AulaRange();
 
     }  
 
