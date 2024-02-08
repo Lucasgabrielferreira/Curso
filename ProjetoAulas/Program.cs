@@ -20,8 +20,8 @@ internal class Program
     private static void TrabalhandoComDatas()
     {
        var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
-       
-       trabalhandoComDatas.AulaDateTime(); 
+       //trabalhandoComDatas.AulaDateTime(); 
+       trabalhandoComDatas.AulaSubtraindoDatas();
     }  
 
 
