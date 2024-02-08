@@ -24,7 +24,8 @@ internal class Program
        //trabalhandoComDatas.AulaDateTime(); 
        //trabalhandoComDatas.AulaSubtraindoDatas();
        //trabalhandoComDatas.AulaAdicionandoDiasMesAno();
-       trabalhandoComDatas.AulaAdicionandoHoraMinutoSegundos();
+       //trabalhandoComDatas.AulaAdicionandoHoraMinutoSegundos();
+       trabalhandoComDatas.AulaDiaDaSemana();
     }
 
 
