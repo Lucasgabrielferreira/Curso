@@ -12,9 +12,18 @@ internal class Program
         //AulaRecord(); 
         //AulaInterface();
         //Conversores();
-        TrabalhandoComStrings();
+        //TrabalhandoComStrings();
+        TrabalhandoComDatas();
 
     }
+
+    private static void TrabalhandoComDatas()
+    {
+       var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
+       
+       trabalhandoComDatas.AulaDateTime(); 
+    }  
+
 
     private static void TrabalhandoComStrings()
     {
@@ -27,11 +36,7 @@ internal class Program
        //trabalhandoComStrings.AulaTrim();
        //trabalhandoComStrings.AulaStartsWithEndsWith();
        //trabalhandoComStrings.AulaReplace();
-       trabalhandoComStrings.AulaLength();
-       
-
-
-
+       trabalhandoComStrings.AulaLength(); 
     }  
 
     private static void Conversores()
