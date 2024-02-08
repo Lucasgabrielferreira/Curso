@@ -41,5 +41,15 @@ public class TrabalhandoComDatas
         Console.WriteLine(date1.AddYears(2));
     }
 
+     public void AulaAdicionandoHoraMinutoSegundos()
+    {
+        var date1 = DateTime.Now;
+
+        Console.WriteLine(date1.ToString("HH-mm-ss"));
+        Console.WriteLine(date1.AddHours(1).ToString("HH-mm-ss"));
+        Console.WriteLine(date1.AddMinutes(10).ToString("HH-mm-ss"));
+        Console.WriteLine(date1.AddSeconds(10).ToString("HH-mm-ss"));
+    }
+
     
 }

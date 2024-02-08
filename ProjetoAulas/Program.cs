@@ -23,8 +23,9 @@ internal class Program
        var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
        //trabalhandoComDatas.AulaDateTime(); 
        //trabalhandoComDatas.AulaSubtraindoDatas();
-       trabalhandoComDatas.AulaAdicionandoDiasMesAno();
-    }  
+       //trabalhandoComDatas.AulaAdicionandoDiasMesAno();
+       trabalhandoComDatas.AulaAdicionandoHoraMinutoSegundos();
+    }
 
 
     private static void TrabalhandoComStrings()
