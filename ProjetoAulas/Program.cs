@@ -25,7 +25,11 @@ internal class Program
        //trabalhandoComStrings.AulaRange();
        //trabalhandoComStrings.AulaContains();
        //trabalhandoComStrings.AulaTrim();
-       trabalhandoComStrings.AulaStartsWithEndsWith();
+       //trabalhandoComStrings.AulaStartsWithEndsWith();
+       //trabalhandoComStrings.AulaReplace();
+       trabalhandoComStrings.AulaLength();
+       
+
 
 
     }  

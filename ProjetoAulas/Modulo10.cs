@@ -71,4 +71,22 @@ public class TrabalhandoComStrings
         Console.WriteLine("FINAL: " + teste.EndsWith("Csharp"));
         
     }
+
+       public void AulaReplace()
+    {
+        string teste = "Curso Csharp";
+        Console.WriteLine(teste);
+        Console.WriteLine(teste.Replace("Csharp", "C#"));
+        
+        
+    }
+
+      public void AulaLength()
+    {
+        string teste = Console.ReadLine();
+        Console.WriteLine(teste);
+        Console.WriteLine(teste.Length);
+        
+        
+    }
 }
