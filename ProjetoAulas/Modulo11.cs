@@ -31,4 +31,15 @@ public class TrabalhandoComDatas
         Console.WriteLine((int)diff.TotalDays);
         Console.WriteLine((int)diff.TotalHours);
     }
+
+      public void AulaAdicionandoDiasMesAno()
+    {
+        var date1 = DateTime.Now;
+
+        Console.WriteLine(date1.AddDays(3));
+        Console.WriteLine(date1.AddMonths(1));
+        Console.WriteLine(date1.AddYears(2));
+    }
+
+    
 }

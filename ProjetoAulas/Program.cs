@@ -14,6 +14,7 @@ internal class Program
         //Conversores();
         //TrabalhandoComStrings();
         TrabalhandoComDatas();
+        
 
     }
 
@@ -21,7 +22,8 @@ internal class Program
     {
        var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
        //trabalhandoComDatas.AulaDateTime(); 
-       trabalhandoComDatas.AulaSubtraindoDatas();
+       //trabalhandoComDatas.AulaSubtraindoDatas();
+       trabalhandoComDatas.AulaAdicionandoDiasMesAno();
     }  
 
 
