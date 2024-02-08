@@ -59,5 +59,16 @@ public class TrabalhandoComDatas
      
     }  
 
+     public void AulaDateOnly()
+    {
+        //var somenteData = new DateOnly(2024,02,08);
+        var somenteData = DateOnly.Parse("2024,02,08");
+
+        Console.WriteLine(somenteData);
+        
+     
+    }  
+
+
     
 }
