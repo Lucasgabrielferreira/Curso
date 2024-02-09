@@ -13,9 +13,14 @@ internal class Program
         //AulaInterface();
         //Conversores();
         //TrabalhandoComStrings();
-        TrabalhandoComDatas();
-        
+        //TrabalhandoComDatas();
+        TrabalhandoComExcecoes();
+    }
 
+    private static void TrabalhandoComExcecoes()
+    {
+        var trabalhandoComExcecoes = new Modulo12.TrabalhandoComExcecoes();
+        trabalhandoComExcecoes.AulaGerandoExcaption();
     }
 
     private static void TrabalhandoComDatas()
@@ -42,7 +47,7 @@ internal class Program
        //trabalhandoComStrings.AulaTrim();
        //trabalhandoComStrings.AulaStartsWithEndsWith();
        //trabalhandoComStrings.AulaReplace();
-       trabalhandoComStrings.AulaLength(); 
+       //trabalhandoComStrings.AulaLength(); 
     }  
 
     private static void Conversores()
