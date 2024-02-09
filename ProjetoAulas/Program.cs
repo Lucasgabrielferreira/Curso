@@ -20,7 +20,8 @@ internal class Program
     private static void TrabalhandoComExcecoes()
     {
         var trabalhandoComExcecoes = new Modulo12.TrabalhandoComExcecoes();
-        trabalhandoComExcecoes.AulaGerandoExcaption();
+        //trabalhandoComExcecoes.AulaGerandoExcaption();
+        trabalhandoComExcecoes.AulaTratandoExcaption();
     }
 
     private static void TrabalhandoComDatas()
