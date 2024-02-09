@@ -1,4 +1,5 @@
 ﻿using Cadastro;
+using Modulo13;
 
 internal class Program
 {
@@ -14,7 +15,16 @@ internal class Program
         //Conversores();
         //TrabalhandoComStrings();
         //TrabalhandoComDatas();
-        TrabalhandoComExcecoes();
+        //TrabalhandoComExcecoes();
+        TrabalhandoComArquivos();
+    }
+
+     private static void TrabalhandoComArquivos()
+    {
+        var trabalhandoComArquivos = new Modulo13.TrabalhandoComArquivos();
+        //trabalhandoComArquivos.AulaCriandoArquivo();
+        //trabalhandoComArquivos.AulaLendoArquivo();
+        trabalhandoComArquivos.AulaExcluindoArquivo();
     }
 
     private static void TrabalhandoComExcecoes()
