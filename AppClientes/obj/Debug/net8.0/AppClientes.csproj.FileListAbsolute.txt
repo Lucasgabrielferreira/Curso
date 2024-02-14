@@ -1,0 +1,15 @@
+D:\Curso\AppClientes\bin\Debug\net8.0\AppClientes.exe
+D:\Curso\AppClientes\bin\Debug\net8.0\AppClientes.deps.json
+D:\Curso\AppClientes\bin\Debug\net8.0\AppClientes.runtimeconfig.json
+D:\Curso\AppClientes\bin\Debug\net8.0\AppClientes.dll
+D:\Curso\AppClientes\bin\Debug\net8.0\AppClientes.pdb
+D:\Curso\AppClientes\obj\Debug\net8.0\AppClientes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso\AppClientes\obj\Debug\net8.0\AppClientes.AssemblyInfoInputs.cache
+D:\Curso\AppClientes\obj\Debug\net8.0\AppClientes.AssemblyInfo.cs
+D:\Curso\AppClientes\obj\Debug\net8.0\AppClientes.csproj.CoreCompileInputs.cache
+D:\Curso\AppClientes\obj\Debug\net8.0\AppClientes.sourcelink.json
+D:\Curso\AppClientes\obj\Debug\net8.0\AppClientes.dll
+D:\Curso\AppClientes\obj\Debug\net8.0\refint\AppClientes.dll
+D:\Curso\AppClientes\obj\Debug\net8.0\AppClientes.pdb
+D:\Curso\AppClientes\obj\Debug\net8.0\AppClientes.genruntimeconfig.cache
+D:\Curso\AppClientes\obj\Debug\net8.0\ref\AppClientes.dll
